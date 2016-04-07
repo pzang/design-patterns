@@ -8,3 +8,4 @@
 */target
 *.jar
 */*.jar
+*.iml
