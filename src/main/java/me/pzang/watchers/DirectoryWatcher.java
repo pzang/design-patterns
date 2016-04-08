@@ -20,6 +20,7 @@ public class DirectoryWatcher implements Watcher<FileSystemChangeEvent> {
     private boolean recursive = true;
     private boolean trace = false;
 
+    @SuppressWarnings("unchecked")
     public DirectoryWatcher() throws IOException {
         keys = new HashMap<>();
         observers = new ArrayList<>();
